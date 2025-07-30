@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>     
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to Basic HTML</title>
+  <meta name="description" content="A beginner-friendly guide to learning basic HTML with examples.">
+  <meta name="keywords" content="HTML, beginner, web development, learn HTML">
+  <meta name="author" content="Your Name">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Basic HTML</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="rules-heading">
+      <h2 id="rules-heading">Golden Rules</h2>
+      <h3>HTML Document Structure</h3>
+      <p id="p-one">This is a one-stop point for learning HTML.</p>
+    </section>
+
+    <section>
+      <h2>Visual Examples</h2>
+      <figure>
+        <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Code on screen" width="250" height="250">
+        <figcaption>Learning code visually</figcaption>
+      </figure>
+      <figure>
+        <img src="sapienlogo.png" alt="company logo" width="250" height="250">
+       
+      <p><a href="https://google.com" target="_blank" rel="noopener noreferrer">Click to visit Google for more</a></p>
+    </section>
+
+    <section>
+      <h2>Sign Up Form</h2>
+      <form action="submit.html" method="POST" aria-label="User registration form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br />
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="Uganda">Uganda</option>
+          <option value="Kenya">Kenya</option>
+          <option value="Tanzania">Tanzania</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="Rwanda">Rwanda</option>
+          <option value="Ghana">Ghana</option>
+        </select>
+        <br />
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    <section>
+      <h2>User Directory</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Donga</td>
+            <td>john.m@example.com</td>
+            <td>+256 756-877890</td>
+          </tr>
+          <tr>
+            <td>Jane Siima</td>
+            <td>jane.sk@example.com</td>
+            <td>+254 567-458901</td>
+          </tr>
+          <tr>
+            <td>Emily Baana</td>
+            <td>emily.bn@example.com</td>
+            <td>+255 678-907612</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Learn HTML Basics. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
